@@ -10,8 +10,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://nexus-library-ab88f.web.app",
-      "https://nexus-library-ab88f.firebaseapp.com",
+      "smart-library-c251f.web.app",
+      "smart-library-c251f.firebaseapp.com",
     ],
     credentials: true,
   })
