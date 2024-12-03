@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
-const uri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@<hostname>/?ssl=true&replicaSet=atlas-g1jwo2-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.zi4xu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
