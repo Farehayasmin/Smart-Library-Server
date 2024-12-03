@@ -10,8 +10,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "smart-library-c251f.web.app",
-      "smart-library-c251f.firebaseapp.com",
+      "https://smart-library-c251f.web.app",
+      "https://smart-library-c251f.firebaseapp.com", 
     ],
     credentials: true,
   })
