@@ -83,7 +83,7 @@ async function run() {
 
     // await client.connect();
 
-    const database = client.db("Nexus-Library");
+    const database = client.db("Smart-Library");
     const allBooks = database.collection("all-books");
     const booksCategories = database.collection("books-categories");
     const writerList = database.collection("writer-list");
